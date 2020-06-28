@@ -53,7 +53,7 @@ def main():
         result = prediction(model,year)
         print(f"\n Result: {country.upper()} population in {year} will be {result:,d}")
     else:
-        print('kindly check country name spelling from country_list.json')
+        print('kindly check available country name and thier spelling from country_list.json')
     
 if __name__ == "__main__":
     main()
